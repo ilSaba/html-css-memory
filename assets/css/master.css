@@ -1,0 +1,35 @@
+*/{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ADD8E5
+}
+
+#title{
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Lobster', cursive;
+}
+
+.container{
+  text-align:center;
+  margin-top: 70px;
+}
+
+.card{
+  display: inline-block;
+  height: 250px;
+  width: 200px;
+  background-color: blue;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.uno{
+  background-image: url("../img/pattern.png");
+  background-size: contain;
+}
