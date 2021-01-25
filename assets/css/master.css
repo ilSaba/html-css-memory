@@ -5,14 +5,14 @@
 }
 
 body{
-  background-color: #ADD8E5
+  background-color: #ADD8E5;
+  font-family: 'Lobster', cursive;
 }
 
 #title{
   font-size: 60px;
   text-align: center;
   color: #fff;
-  font-family: 'Lobster', cursive;
 }
 
 .container{
@@ -24,12 +24,24 @@ body{
   display: inline-block;
   height: 250px;
   width: 200px;
-  background-color: blue;
+  background-color: #fff;
   border-radius: 10px;
   margin-left: 20px;
 }
 
-.uno{
+.bg-pattern{
   background-image: url("../img/pattern.png");
   background-size: contain;
+}
+
+.scoperta{
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer{
+  text-align: center;
+  padding-top: 40px;
 }
